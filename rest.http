@@ -1,0 +1,12 @@
+# PATCH http://localhost:8000/products/1?price=12
+# GET http://localhost:8000/products
+# POST http://localhost:8000/
+# GET http://localhost:8000/categories
+POST http://localhost:8000/categories
+Content-Type: 'application/json'
+{
+    "name": "hasa"
+}
+
+# POST http://localhost:8000/categories?name=iloveyou
+# DELETE http://localhost:8000/categories/2

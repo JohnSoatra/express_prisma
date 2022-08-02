@@ -1,0 +1,22 @@
+{
+  "name": "rooter",
+  "version": "1.0.0",
+  "description": "This is just for dfl.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pri_init": "prisma init"
+  },
+  "author": "Soatra",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.19",
+    "prisma": "^4.1.1",
+    "socket.io": "^4.5.1"
+  }
+}
